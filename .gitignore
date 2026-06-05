@@ -1,0 +1,25 @@
+# Large archives - do not commit directly (use LFS or external storage for datasets)
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+
+# Common junk
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.env
+.env.local
